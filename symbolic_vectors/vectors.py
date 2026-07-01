@@ -1,6 +1,6 @@
 from typing import Callable
-import diffeq.utils.symbolic as symb
-from diffeq.utils.string_operations import get_table
+import symbolic_vectors.symbolic as symb
+from symbolic_vectors.string_operations import get_table
 
 class vector(dict):
     def __str__(self):
